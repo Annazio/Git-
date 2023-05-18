@@ -2,15 +2,16 @@
      
 Предварительно добавить ключ в GitHub.
 
-Войти в репозиторий → Code → SSH → копировать ссылку → git clone $ссылка
+Войти в репозиторий → копировать ссылку → git clone $ссылка
 
 
 
 2. Как создать git репозиторий из локального каталога на своем компьютере. Как его отправить на github.com?
 
-   сd  (путь)
-   git init
-   git commit -m “New Project”
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/Annazio/new_repo.git
+git push -u origin master
 
 
 
